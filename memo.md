@@ -12,6 +12,11 @@ https://docs.docker.jp/compose/django.html
 Python Anywhere
 https://www.pythonanywhere.com/
 
+
+WebSite
+https://masarugotou.pythonanywhere.com/
+
+
 ## Build Container
 
 ```shell
@@ -34,6 +39,10 @@ python manage.py migrate blog
 ## Create Admin User
 
 python manage.py createsuperuser
+
+## Deploy
+
+pa_autoconfigure_django.py --python=3.12 https://github.com/marzg510/my-first-blog.git
 
 
 #### Claude
