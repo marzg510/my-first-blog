@@ -44,6 +44,14 @@ python manage.py createsuperuser
 
 pa_autoconfigure_django.py --python=3.12 https://github.com/marzg510/my-first-blog.git
 
+or
+
+git pull
+
+## Command Shell
+
+docker compose exec -it web python manage.py shell
+
 
 #### Claude
 
