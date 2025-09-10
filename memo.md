@@ -66,3 +66,7 @@ docker compose exec -it db psql mydb myuser
 
 new project
 docker-compose run web django-admin.py startproject composeexample .
+
+Bootstrap
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
