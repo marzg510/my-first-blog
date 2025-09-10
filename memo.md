@@ -48,6 +48,9 @@ or
 
 git pull
 
+Update Static File
+python manage.py collectstatic
+
 ## Command Shell
 
 docker compose exec -it web python manage.py shell
